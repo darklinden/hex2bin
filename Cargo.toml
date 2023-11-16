@@ -3,6 +3,14 @@ name = "hex2bin"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "hex2bin"
+path = "hex2bin/main.rs"
+
+[[bin]]
+name = "bin2hex"
+path = "bin2hex/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
